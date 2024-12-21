@@ -19,7 +19,7 @@ const Footer = () => {
 
                 <ul className="footer-quick-links">
                   <li>
-                    <Link href="#">ABout Us</Link>
+                    <Link href="#">About Us</Link>
                   </li>
                   <li>
                     <Link href="#">Platform</Link>
@@ -31,7 +31,7 @@ const Footer = () => {
                     <Link href="#">Career</Link>
                   </li>
                   <li>
-                    <Link href="#">Contact</Link>
+                    <Link href="/contact-us/">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -44,13 +44,13 @@ const Footer = () => {
 
                 <ul className="footer-quick-links">
                   <li>
-                    <Link href="#">Industry A</Link>
+                    <Link href="/faq/">FAQ</Link>
                   </li>
                   <li>
-                    <Link href="#">Industry B</Link>
+                    <Link href="/pricing/">Pricing</Link>
                   </li>
                   <li>
-                    <Link href="#">Industry C</Link>
+                    <Link href="/partner/">Partner</Link>
                   </li>
                 </ul>
               </div>
@@ -91,13 +91,13 @@ const Footer = () => {
                 <div className="footer-info-contact">
                   <i className="flaticon-envelope"></i>
                   <h3>Email</h3>
-                  <span>hello@raxr.com</span>
+                  <span>info@searchereye.com</span>
                 </div>
 
                 <div className="footer-info-contact">
                   <i className="flaticon-maps-and-flags"></i>
                   <h3>Address</h3>
-                  <span>32 st Kilda Road, Melbourne VIC, 3004 Australia</span>
+                  <span>32 st Kilda Road, Pune, 3004 indian</span>
                 </div>
               </div>
             </div>
@@ -159,9 +159,9 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                &copy; {currentYear} Apikus. All Rights Reserved by
+                &copy; {currentYear} SearcherEye. All Rights Reserved by
                 <a href="#" target="_blank">
-                  Apikus
+                  SearcherEye
                 </a>
               </p>
             </div>
@@ -169,10 +169,10 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6">
               <ul>
                 <li>
-                  <Link href="#">Terms & Conditions</Link>
+                  <Link href="/terms-condition/">Terms & Conditions</Link>
                 </li>
                 <li>
-                  <Link href="#">Privacy Policy</Link>
+                  <Link href="/privacy-policy/">Privacy Policy</Link>
                 </li>
               </ul>
             </div>

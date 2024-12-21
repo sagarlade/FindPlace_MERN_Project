@@ -12,7 +12,7 @@ const ContactInfo = () => {
                 <div className="content-title">
                   <h3>Address</h3>
                   <p>
-                    32 st Kilda Road, Melbourne VIC, <br /> 3004 Australia
+                    32 st Kilda Road, Pune, <br /> 3004 indian
                   </p>
                 </div>
               </div>
@@ -23,8 +23,8 @@ const ContactInfo = () => {
                 <i className="fa fa-envelope"></i>
                 <div className="content-title">
                   <h3>Email</h3>
-                  <p>hello@raxr.com</p>
-                  <p>fax@raxr.com</p>
+                  <p>searchereye@gmail.com</p>
+                  <p>info@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -34,8 +34,8 @@ const ContactInfo = () => {
                 <i className="fa fa-phone"></i>
                 <div className="content-title">
                   <h3>Phone</h3>
-                  <p>+123 (456) 123</p>
-                  <p>+123 (534) 445</p>
+                  <p>+911234567890</p>
+                  <p>+919234567819</p>
                 </div>
               </div>
             </div>

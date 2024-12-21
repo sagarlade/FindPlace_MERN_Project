@@ -3373,7 +3373,7 @@ Page Title Area CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100px;
+  height: 300px;
   background-color: #151629;
 }
 .page-title-area::before {

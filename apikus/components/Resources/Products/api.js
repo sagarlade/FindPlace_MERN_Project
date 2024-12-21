@@ -1,12 +1,12 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://apikuslabs.com",
+  baseURL: "http://localhost:3001",
 });
 
 const fetchData = async () => {
   try {
-    const response = await api.get("/assets/resources.json");
+    const response = await api.get("/assets/resources");
     res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
     res.setHeader(
       "Access-Control-Allow-Methods",

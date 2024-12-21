@@ -8,7 +8,6 @@ import WorkingProcess from "../components/HomeOne/WorkingProcess";
 import FeaturedService from "../components/HomeOne/FeaturedService";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/Layouts/Footer";
-import BlogPost from "../components/Common/BlogPost";
 
 export default function Home() {
   return (
@@ -27,8 +26,6 @@ export default function Home() {
 
       <AboutUs />
       <WorkingProcess />
-
-      <BlogPost/>
       <Subscribe />
 
       <Footer />

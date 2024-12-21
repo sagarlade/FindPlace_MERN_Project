@@ -4,7 +4,7 @@ import Products from "./Products/Products";
 const Resources = ({results}) => {
 
   return (
-    <div className="App">
+    <div className="App mt-5">
       <Head>
         <title>Resources</title>
       </Head>

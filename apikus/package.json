@@ -35,5 +35,5 @@
     "three": "^0.167.1",
     "utils": "^0.3.1"
   },
-  "proxy": "https://apikuslabs.com"
+  "proxy": "http://localhost:3001"
 }

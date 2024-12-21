@@ -10,8 +10,8 @@ function Type({ handleChange }) {
   useEffect(() => {
     const fetchTypes = async () => {
       try {
-        const response = await axios.get("/api/resources");
-        const data = response.data.documents; 
+        const response = await axios.get("http://localhost:3001/assets/resources");
+        const data = response.data; 
         setTypes(data);
       } catch (error) {
         setError(error.message);
@@ -20,7 +20,7 @@ function Type({ handleChange }) {
     fetchTypes();
   }, []);
 
-  // const uniqueTypes = [...new Set(types.map((type) => type.types))];
+  const uniqueTypes = types?.length ? [...new Set(types.map((type) => type.types))] : [];
 
   return (
     <div>
@@ -31,7 +31,7 @@ function Type({ handleChange }) {
           <input onChange={handleChange} type="checkbox" value="all" name="test" />
           <span className={Styles.checkmark}></span>All
         </label>
-        {/* {error ? (
+        {error ? (
           <p>Error: {error}</p>
         ) : (
           uniqueTypes.map((type, index) => (
@@ -44,7 +44,7 @@ function Type({ handleChange }) {
               name="test"
             />
           ))
-        )} */}
+        )}
       </div>
     </div>
   );
